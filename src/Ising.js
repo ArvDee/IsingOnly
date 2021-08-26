@@ -1,5 +1,5 @@
-import * as THREE from '/three/build/three.module.js';
-import { GPUComputationRenderer } from '/three/examples/jsm/misc/GPUComputationRenderer.js';
+import * as THREE from 'three/build/three.module.js';
+import { GPUComputationRenderer } from 'three/examples/jsm/misc/GPUComputationRenderer.js';
 
 
 const IsingComputefs = `
