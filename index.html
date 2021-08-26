@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<title>WebGL Ising Model</title>
+		<style>
+			body { 
+				margin: 0;
+				overflow:hidden; 
+				color: #fff;
+				font-family: Monospace;
+				font-size: 18px;
+				overscroll-behavior: none;
+			}
+			a {
+				text-decoration: none;
+				pointer-events: auto;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			#gui { position: absolute; top: 2px; left: 2px }
+			#info {
+				position: absolute;
+				top: 0px;
+				width: 100%;
+				padding: 10px;
+				box-sizing: border-box;
+				text-align: center;
+				-moz-user-select: none;
+				-webkit-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+				pointer-events: none;
+				z-index: 1;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="info">
+			The <a href="https://en.wikipedia.org/wiki/Ising_model" target="_blank" rel="noopener">Ising model</a>, rendered on your GPU!<br />
+		</div>
+
+		<script script type="module" src="src/IsingOnly.js"></script>
+
+	</body>
+</html>
